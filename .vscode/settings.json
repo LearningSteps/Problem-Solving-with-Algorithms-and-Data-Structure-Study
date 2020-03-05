@@ -1,0 +1,7 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": false,
+    "python.linting.pylamaEnabled": false,
+    "editor.fontSize": 20,
+    "python.pythonPath": "/usr/local/bin/python3"
+}
