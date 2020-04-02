@@ -2,6 +2,16 @@
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": false,
     "python.linting.pylamaEnabled": false,
-    "editor.fontSize": 24,
-    "python.pythonPath": "/usr/local/bin/python3"
+    "editor.fontSize": 18,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true
 }
